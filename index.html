@@ -1,13 +1,596 @@
+
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>Website under construction</title>
+	<title>Shailesh Mohta</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
 </head>
 <body>
-<center>
-<h1>Oops ! Website under construction</h1>
-<hr/>
-<br/>
-Shailesh Mohta
-</center>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container">
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>services</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>projects</span></a></li>
+										<!-- <li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li> -->
+										<!-- <li><a class="scroll" href="#blog"><span>blog</span></a></li> -->
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide();
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/Shailesh.png" width ="269" height = "269" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1 style="font-size:28px">SHAILESH MOHTA</h1>
+				<br/>
+				<div class="border"></div>
+				<h2 style="font-size:34px;margin-bottom:0px">Computer Science Engineer</h2>
+				<h2>
+				<a href="ShaileshMohtaResume.pdf">DOWNLOAD MY RESUME</a>
+				</h2>			
+				
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>I am an able and interested Computer Science Engineer. Throughout my course work I have always tried to put my knowledge into the practical applications which is evident through the project work that I have done. I have always been counted amongst the best in my University and at places where I have worked. My overall Strengths can be enumerated as dedicated, ambitious, responsible and disciplined. I possess good communications and presentation skills.</p>
+		<ul>
+			<li><a class="fb" href="https://www.facebook.com/shailesh.mohta.5"></a></li>
+			<li><a class="twit" href="https://twitter.com/ShaileshMohta"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/shailesh-mohta-2262ab10b/"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-1"></div>
+						<p>C,C++</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-2"></div>
+						<p>Java</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-3"></div>
+						<p>Python</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-4"></div>
+						<p>Html 5</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-5"></div>
+						<p>CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-6"></div>
+						<p>Javascript</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-7"></div>
+						<p>PHP</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-8"></div>
+						<p>MySQL</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center margin-bottom">
+						<div class="circle" id="circles-9"></div>
+						<p>Android App Development</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					     <script>
+							 function returnNum(i){
+								 if(i==1){
+									return 70;
+								}else if(i==2){
+									return 70;
+								}else if(i==3){
+									return 60;
+								}else if(i==4){
+									return 80;
+								}else if(i==5){
+									return 60;
+								}else if(i==6){
+									return 50;
+								}else if(i==7){
+									return 60;
+								}else if(i==8){
+									return 70;
+								}else if(i==9){
+									return 80;
+								}
+							 }
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'],['#6ed4c0', '#ffffff'],['#6ed4c0', '#ffffff'],['#6ed4c0', '#ffffff'],
+									];
+								for (var i = 1; i <= 9; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = returnNum(i);
+										console.log(percentage);
+
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+
+				</script>
+		</div>
+	</div>
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>91.60 %</p><span>Year - 2012 </span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>SECONDARY SCHOOL CERTIFICATE (ICSE)</h3>
+						<h4>Don Bosco School, Liluah</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Subjects: Math, Scince, English, Hindi, Social Sciences, Computer Application</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>91.25 %</p><span>Year - 2014</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>HIGHER SECONDARY EXAMINATION (ISC)</h3>
+						<h4>Don Bosco School, Liluah</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Subjects: English, Physics, Maths, Chemistry and Computer Application</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>8.77 (Sem 5)</p><span>Year - 2019</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHELORS OF TECHNOLOGY</h3>
+						<h4>NIIT University</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Majors: Computer Science And Engineering<br>Area of Concentration: Data Science  </h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid" style="margin-bottom: 10px;">
+				<div class="work-grid">
+					<h3>December,2017 - Present</h3>
+					<div class="work-grid-info">
+						<h4>HPDF(Hasura Product Develeopment Fellowship)</h4>
+						<h5>Frontend Developer</h5>
+						 <p>I am working in a cluster of 5 members, assigned to develop a working prototype of a payment transaction authentication system using Stripe's API. My individual role is to develop the front-end of the prototype using react native framework.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid" style="margin-bottom: 10px;">
+				<div class="work-grid">
+					<h3>2018</h3>
+					<div class="work-grid-info">
+						<h4>E-Summit IIT Roorkee</h4>
+						<h5>Campus Ambassador</h5>
+						<p style="padding-top: 15px;padding-bottom: 10px;">Helped to promote E-Summit among the students of their colleges by actively interacting with EDC IIT Roorkee about the available opportunities and requisites for promotions.<br><br></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid" style="margin-bottom: 10px;">
+				<div class="work-grid">
+					<h3>2013 - 14</h3>
+					<div class="work-grid-info">
+						<h4>SpaceByte Club</h4>
+						<h5>Vice President</h5>
+						<p style="padding-top: 15px;padding-bottom: 10px;">Helped in strategising and organising various activities of the club. Prepared weekly club reports and also conducted 3 workshops in my term.<br><br><br></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>UI-UX Designing</h3>
+				<p>I have experience in both designing and developing interactive user experience, which is to say I can convert your ideas into a visual paradigm or code in into reality</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>Web Development</h3>
+				<p>I have experience in web development. I can prove to be an asset to your team given my programming aproach and knowledge of Design Patterns.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagec"></div>
+				<h3>Project Management</h3>
+				<p>Managing comes naturally to me. I have been in numerous team projects and understand the importance of mananagement. While handling my responsibilities at various managerial positions, I have inherited and mastered the concept of Agile methadology for Project Management.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Application Development</h3>
+				<p>I am confident that I can prove to be a great asset in the field of application development. Since I have developed both android and web applications, I feel that this is something that interests me and I can certainly do much better than what I have done till date.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PROJECTS</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>It has always been my aim to put my knowledge into practical use. These projects have built my foundation in the field of technology and has developed my interest in various fields.</p>
+
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/consonant.png" class="swipebox"><img style="padding: 10px"src="images/consonant.png" class="img-responsive" alt="/">
+						<div class="textbox" style="padding: 10px;">
+							<h4>Consonant</h4>
+							<p>Developer</p>
+							<p>Consonant is an android application that enables a set of people to build a knowledge repository on a specific topic or point of interest. It allows users to create topic threads which can then beshared with a set of people who can add messages, snippets from the web, links to videos or images etc. with comments to this thread.</p>
+							<!-- <div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div> -->
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/homeautomation.png" class="swipebox">
+						<img style="padding: 10px" src="images/homeautomation.png" class="img-responsive" height = "200" width = "200" alt="/">
+						<div class="textbox" style="padding: 10px;">
+							<h4>Home Automation System</h4>
+							<p>(using hand gestures)</p>
+							<p>This project involves a DESKTOP APPLICATION for hand gesture recognition of a limited set of hand gestures in a reasonable environment (using OpenCV library) , for operating low voltage appliances used as a replacement for the actual home appliances (using MicroController PIC16F877A).</p>
+							<!-- <div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div> -->
+						</div>
+				</div></a>
+				
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/atm.png" class="swipebox"><img style="padding: 10px" src="images/atm.png" class="img-responsive" alt="/">
+						<div class="textbox" style="padding: 10px;">
+							<h4>ATM Application</h4>
+							<p>Developer</p>
+							<p>This is a JAVA-BASED APPLICATION depicting a miniature version of a working ATM. Serves purposes like adding/removing users; assigning of secured ID, password for each user; depositing and withdrawal of amount from their Savings, Current Account; transfer of amount from one account to another; generation of transactions (analogous to passbook) and few more.</p>
+							<!-- <div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div> -->
+						</div>
+				</div></a>
+				
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/mieten.png" class="swipebox"><img style="padding: 10px" src="images/mieten.png" class="img-responsive" alt="/">
+						
+						<div class="textbox" style="padding: 10px;">
+							<h4>Mieten</h4>
+							<p>Developer</p>
+							<p>Mieten is an android application for the placement cell department of NIIT university which enables students of the university to apply for internships, campus placements, receive updates regarding job recruitments and so forth. Motive was to create a centralized platform for interaction between the placement cell and the students of the university.</p>
+							<!-- <div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div> -->
+						</div>
+						
+				</div></a>
+
+				
+				<!-- <div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img  style="padding: 10px" src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a> -->
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script>
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+<!--process-->
+<div class="process text-center">
+	<div class="container">
+		<h3>How I go about it</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="contact-back"></div> 
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>NIIT University </li>
+					<li>Neemrana, Alwar </li>
+					<li>Rajasthan, India</li>
+					
+					
+			<!--		<li><a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY">shaileshmohta95@gmail.com</a></li>  -->
+
+
+					<li><a href="#">ShaileshMohta.github.io</a></li>
+					<li><a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY"><b>shaileshmohta95@gmail.com</b></a></li>
+					<li>(+91)7296859874</li>
+					
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form >
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					
+					<!--input type="submit" value="SEND" onclick="sendMessage()">
+					<input type="submit" value="SEND" onclick="location.href='https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY';">
+				
+					<script type="text/javascript">
+						function sendMessage()
+						{
+							var url = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY";
+							window.location(url);
+						}
+					</script>
+					
+				
+					<button id="myButton" class="float-left submit-button" >SEND</button>
+
+					<script type="text/javascript">
+						document.getElementById("myButton").onclick = function () {
+							location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY";
+						};
+					</script>
+					-->		
+					<h3>
+					<a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY"><b>SEND</b></a>
+					</h3>
+					
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div> 
+<!--//contact-->
+
+
+
+
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="ShaileshMohtaResume.pdf"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="ShaileshMohtaResume.pdf">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer" style="padding-top:10px; padding-bottom:10px">
+	<div class="about text-center" style="padding:0px">
+		<ul style="margin:0px">
+			<li><a class="fb" href="https://www.facebook.com/shailesh.mohta.5"></a></li>
+			<li><a class="twit" href="https://twitter.com/ShaileshMohta"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/shailesh-mohta-2262ab10b/"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+<!-- //here ends scrolling icon -->
 </body>
+
 </html>
