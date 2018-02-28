@@ -121,9 +121,9 @@
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
 		<p>I am an able and interested Computer Science Engineer. Throughout my course work I have always tried to put my knowledge into the practical applications which is evident through the project work that I have done. I have always been counted amongst the best in my University and at places where I have worked. My overall Strengths can be enumerated as dedicated, ambitious, responsible and disciplined. I possess good communications and presentation skills.</p>
 		<ul>
-			<li><a class="fb" href="https://www.facebook.com/shailesh.mohta.5"></a></li>
-			<li><a class="twit" href="https://twitter.com/ShaileshMohta"></a></li>
-			<li><a class="in" href="https://www.linkedin.com/in/shailesh-mohta-2262ab10b/"></a></li>
+			<li><a class="fb" target="_blank" href="https://www.facebook.com/shailesh.mohta.5"></a></li>
+			<li><a class="twit" target="_blank" href="https://twitter.com/ShaileshMohta"></a></li>
+			<li><a class="in" target="_blank" ref="https://www.linkedin.com/in/shailesh-mohta-2262ab10b/"></a></li>
 		</ul>
 	</div>
 </div>
@@ -499,9 +499,6 @@
 					<li>NIIT University </li>
 					<li>Neemrana, Alwar </li>
 					<li>Rajasthan, India</li>
-					
-					
-			<!--		<li><a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY">shaileshmohta95@gmail.com</a></li>  -->
 
 
 					<li><a href="#">ShaileshMohta.github.io</a></li>
@@ -513,35 +510,19 @@
 			<div class="col-md-7 contact-right">
 				<h3>Drop Me A Line</h3>
 				<div class="stripb"></div>
-				<form >
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
-					
-					<!--input type="submit" value="SEND" onclick="sendMessage()">
-					<input type="submit" value="SEND" onclick="location.href='https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY';">
-				
-					<script type="text/javascript">
-						function sendMessage()
-						{
-							var url = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY";
-							window.location(url);
-						}
-					</script>
-					
-				
-					<button id="myButton" class="float-left submit-button" >SEND</button>
-
+				<form method = "POST" action = "http://knogle.xyz/public_mailer/?To=shaileshmohta95@gmail.com">
+					<input id = "Name" name = "Name" type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input id = "Email" name = "Email" type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea id = "Body" name = "Body" type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<h3>
+						<button id="send" name = "send" type="submit" class="float-left submit-button" >SEND</button>
 					<script type="text/javascript">
 						document.getElementById("myButton").onclick = function () {
 							location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY";
 						};
 					</script>
-					-->		
-					<h3>
-					<a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY"><b>SEND</b></a>
-					</h3>
-					
+					<!--<a href = "https://mail.google.com/mail/?view=cm&fs=1&to=shaileshmohta95@gmail.com&su=SUBJECT&body=BODY"><b>SEND</b></a> -->
+					</h3>	
 				</form>
 			</div>
 			<div class="clearfix"></div>
